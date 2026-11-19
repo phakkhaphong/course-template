@@ -10,7 +10,7 @@
 4. Rewrite `README.md` outline sections (keep the section order).
 5. Replace the example unit:
    - `lessons/01-example-topic/` → your first lesson
-   - `labs/01-example-topic/` → matching lab (`NN-slug` must match)
+   - `exercises/01-example-topic/` → matching exercise (`NN-slug` must match)
 6. Put supporting files only under `other/` (assets, datasets, slides, docs, reference, scripts).
 7. Run `bash other/scripts/check_structure.sh` before opening a PR.
 
@@ -20,14 +20,16 @@
 |------|------|
 | Unit folders | `NN-slug` — two digits + lowercase hyphenated ASCII (`01-star-schema`) |
 | Lesson files | `lessons/NN-slug/README.md` + `LESSON.md` |
-| Lab files | `labs/NN-slug/README.md` + `LAB.md` + `starter/` + `solution/` |
+| Exercise files | `exercises/NN-slug/README.md` + `LAB.md` + `starter/` + `solution/` |
+| Layout | Keep `lessons/` and `exercises/` **separate** (do not co-locate LESSON + LAB in one folder) |
 | Prose language | Thai and/or English in body text |
-| Paths / slugs | ASCII only (Thai filenames allowed under `other/` case studies if needed) |
+| Paths / slugs | ASCII only under `lessons/` and `exercises/`; Thai filenames OK under `other/` |
 
 ## Do not
 
-- Invent alternate top-level trees (`modules/`, `day-1/`, `Module_01_…`, `exercises/`) for new courses.
+- Invent alternate top-level trees (`modules/`, `day-1/`, `Module_01_…`, `labs/`) for new courses.
 - Put org-specific structure differences in the folder tree — only in content and `org/` notes.
+- Sync this template into `DataFabric-Academy/course-template` unless explicitly requested later.
 - Commit secrets, personal working folders, or large binary decks unless the course explicitly needs them (prefer a pointer in `other/slides/README.md`).
 
 ## Structure check in CI

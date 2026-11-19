@@ -9,5 +9,6 @@ Use this org for **data platform** courses. Same folder tree as Onto-IQ; only to
 
 ## Content tips
 - Prefer bilingual README sections (Thai headers + English commands).
-- Labs often need `starter/` SQL/notebooks and `other/datasets/`.
+- Exercises often need `starter/` SQL/notebooks and `other/datasets/`.
 - Instructor decks usually live under `other/slides/` (or a pointer README if decks stay local).
+- Keep `lessons/` and `exercises/` slugs ASCII; Thai filenames OK under `other/`.

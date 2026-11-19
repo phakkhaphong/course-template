@@ -5,7 +5,7 @@ Folder rule: `lessons/NN-<slug>/` — two-digit `NN`, lowercase hyphenated ASCII
 | | |
 |--|--|
 | Lesson | [LESSON.md](LESSON.md) |
-| Lab | [labs/01-example-topic](../../labs/01-example-topic/) |
+| Exercise | [exercises/01-example-topic](../../exercises/01-example-topic/) |
 | Minutes | 30 |
 
 ## Objectives / วัตถุประสงค์
@@ -15,4 +15,4 @@ Folder rule: `lessons/NN-<slug>/` — two-digit `NN`, lowercase hyphenated ASCII
 -
 
 ## Next
-- Lab: [labs/01-example-topic](../../labs/01-example-topic/)
+- Exercise: [exercises/01-example-topic](../../exercises/01-example-topic/)

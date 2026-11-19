@@ -8,7 +8,7 @@ language: "th"                  # th | en | th+en
 duration: ""                    # e.g. "2 days"
 repo_url: "https://github.com/<owner>/<repo>"
 lessons_path: "lessons/"
-labs_path: "labs/"
+exercises_path: "exercises/"
 other_path: "other/"
 deck_path: "other/slides/"      # folder here, or put the external deck URL in other/slides/README.md
 datasets_path: "other/datasets/"

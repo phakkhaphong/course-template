@@ -19,12 +19,12 @@ See [SETUP.md](SETUP.md) for the full environment setup.
 
 ## 4. สารบัญบทเรียน / Lesson outline
 
-| # | Lesson | Lesson folder | Lab | Minutes |
-|---|--------|---------------|-----|---------|
-| 01 | Example topic | [lessons/01-example-topic](lessons/01-example-topic/) | [labs/01-example-topic](labs/01-example-topic/) | 30 |
+| # | Lesson | Lesson folder | Exercise | Minutes |
+|---|--------|---------------|----------|---------|
+| 01 | Example topic | [lessons/01-example-topic](lessons/01-example-topic/) | [exercises/01-example-topic](exercises/01-example-topic/) | 30 |
 
-## 5. วิธีทำแล็บ / How to run the labs
-1. Open `labs/NN-<slug>/README.md` for the task overview.
+## 5. วิธีทำแบบฝึกหัด / How to run the exercises
+1. Open `exercises/NN-<slug>/README.md` for the task overview.
 2. Follow `LAB.md`. Work in `starter/`. Do not open `solution/` until you have tried.
 3. Compare with `solution/` afterwards.
 
@@ -38,15 +38,17 @@ Deck location: see [other/slides/README.md](other/slides/README.md).
 ## 8. โครงสร้าง Repository / Repository layout
 ```text
 COURSE.md  README.md  SETUP.md  CONTRIBUTING.md  CHANGELOG.md
-lessons/NN-<slug>/     README.md + LESSON.md
-labs/NN-<slug>/        README.md + LAB.md + starter/ + solution/
-other/                 supporting materials
+lessons/NN-<slug>/        README.md + LESSON.md
+exercises/NN-<slug>/      README.md + LAB.md + starter/ + solution/
+other/                    supporting materials
   assets/  datasets/  slides/  docs/  reference/  scripts/
-org/                   org topic-family notes (content scope only)
+org/                      org topic-family notes (content scope only)
 ```
 
 Folder rules are checked by `bash other/scripts/check_structure.sh`.
 To run it in CI, copy `other/scripts/structure-check.workflow.yml` to `.github/workflows/structure-check.yml`.
+
+**Conventions:** `lessons/` and `exercises/` stay separate; unit slugs are ASCII-only (`NN-slug`). Thai prose and Thai filenames are fine under `other/` when needed.
 
 ## 9. License / Credits
 -

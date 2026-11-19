@@ -1,4 +1,4 @@
-# Lab 01 — Example topic
+# Exercise 01 — Example topic
 
 ## Goal
 -

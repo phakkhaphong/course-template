@@ -1,4 +1,4 @@
-# Lab 01 — Example topic
+# Exercise 01 — Example topic
 
 Matches [lessons/01-example-topic](../../lessons/01-example-topic/). Same `NN-<slug>` as the lesson.
 
