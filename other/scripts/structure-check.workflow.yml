@@ -1,0 +1,12 @@
+# Copy to .github/workflows/structure-check.yml
+name: structure-check
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check course structure
+        run: bash other/scripts/check_structure.sh
